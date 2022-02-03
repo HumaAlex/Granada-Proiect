@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body
+{
+    overflow:hidden;
+}
+.home
+{
+    height:100vh;
+    background-image: url('https://th.bing.com/th/id/R.3006906b5040e761d70c9a77bce06026?rik=wpfI8oNe8Ul5hw&riu=http%3a%2f%2fmedia.ussportscamps.com%2fmedia%2fimages%2fbasketball%2f_1024x600_crop_center-center_100%2fnike-basketball-camps-hero-1024-x-1280.jpg&ehk=dAjLXKBecyAiRVCZ2Qar57dsiPdVloSkbe9d4DUAnFg%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+
+
+
+}
+.about
+{
+    height:100vh;
+    background-image:url('https://th.bing.com/th/id/R.e1e26693dfa1450f72447353c785233a?rik=ca0%2bFigXnASZ8Q&riu=http%3a%2f%2fmedia.ussportscamps.com%2fassets%2fcamps%2fbasketball%2f2015_Boys_Lee_Miller_Photoshoot%2fnike-basketball-camp-photoshoot-11.jpg&ehk=Vk4s4yIjNPJ2ScMcCxkxdLEIGdmkP10gbFAigTfQzAw%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.contact
+{
+    height:100vh;
+    background-image: url('https://i.pinimg.com/originals/d3/88/0e/d3880e71d23c91ca6ed44dfdcc6b7384.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navcontainer
+{
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Oswald';
+}
+nav
+{
+    top:0;
+    right:0;
+    left:0;
+    position: fixed;
+    background-color: rgb(22, 21, 21);
+}
+nav h1 
+{
+    color: rgb(161, 161, 161);
+    padding-left:30px;
+}
+
+.bg
+{
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu a
+{
+    color:rgb(161, 161, 161); 
+    text-decoration:none;
+    font-size: 20px;
+    padding-left:40px;
+    padding-right:20px;
+}
+.mij
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.about
+{
+    background-color: rgb(153, 178, 238);
+    height:100vh;
+
+}
+.contact
+{
+    background-color: aquamarine;
+    height: 100vh;
+
+}
+.containerhome{
+    background-color: rgba(255,255,255,0.39);
+    border-radius: 10px;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    margin-top: 100px;
+}
+.containerabout{
+    background-color: rgba(255,255,255, 0.39);
+    border-radius: 10px;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    margin-top: 100px;
+}
+.containercontact{
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 10px;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    margin-top: 100px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.paragrafe
+{
+ font-size:21px;
+}
